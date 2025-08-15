@@ -1,3 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body { margin:0; font-family: system-ui, Arial; background:#f6f7fb; color:#111; }
 input, button, select { padding:10px; border-radius:8px; border:1px solid #ddd; }
 button { cursor:pointer }
+
+.dashboard-container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
