@@ -1,6 +1,7 @@
 import type { Config } from 'tailwindcss'
+const withMT = require("@material-tailwind/html/utils/withMT");
 
-const config: Config = {
+const config: Config = withMT({
   content: [
     './index.html',
     './src/**/*.{vue,ts,tsx,js,jsx}',
@@ -9,6 +10,6 @@ const config: Config = {
     extend: {},
   },
   plugins: [],
-}
+})
 
 export default config
