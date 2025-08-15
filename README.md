@@ -1,5 +1,65 @@
-# Vue 3 + TypeScript + Vite
+# Frontend - Desafio SESAB
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Este repositório contém o **frontend** desacoplado do projeto **Desafio SESAB**, desenvolvido em **Vue 3 + TypeScript + Pinia + Vite**.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+---
+
+## Instalação
+
+Clone o projeto e instale as dependências:
+
+```bash
+git clone <url-do-repo>
+cd desafio-sesab-frontend
+npm install
+```
+
+---
+
+## ▶️ Executando o projeto
+
+Para rodar em ambiente de desenvolvimento:
+
+```bash
+npm run dev
+```
+
+O projeto ficará disponível em:
+```
+http://localhost:5173
+```
+
+---
+
+## 🌐 Rotas principais
+
+- `/login` → Tela de login  
+- `/logout` → Efetua logout do usuário  
+- `/register` → Cadastro de usuário  
+- `/dashboard` → Área administrativa com listagem e gerenciamento de usuários  
+
+---
+
+## 👤 Usuário padrão
+
+Ao rodar o projeto, você pode acessar com o usuário padrão:
+
+- **E-mail:** `root@root.com`  
+- **Senha:** `root`
+
+---
+
+## 📂 Estrutura
+
+- `src/views` → Telas principais (`LoginView`, `RegisterView`, `DashboardView`, etc.)  
+- `src/stores` → Gerenciamento de estado com Pinia  
+- `src/components` → Componentes reutilizáveis (ex.: `UsersTable`)  
+
+---
+
+## 🔗 Integração com o Backend
+
+Este frontend consome a API REST desenvolvida no repositório backend:  
+👉 [Desafio SESAB Backend](https://github.com/JimmyStarling/desafio-sesab-backend/tree/dev)
+
+---
