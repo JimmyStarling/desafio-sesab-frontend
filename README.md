@@ -60,6 +60,6 @@ Ao rodar o projeto, você pode acessar com o usuário padrão:
 ## 🔗 Integração com o Backend
 
 Este frontend consome a API REST desenvolvida no repositório backend:  
-👉 [Desafio SESAB Backend](https://github.com/JimmyStarling/desafio-sesab-backend/tree/dev)
+👉 [Desafio SESAB Backend](https://github.com/JimmyStarling/desafio-sesab-backend)
 
 ---
