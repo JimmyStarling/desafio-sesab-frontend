@@ -2,7 +2,7 @@ import { defineStore } from 'pinia'
 import api from '@/utils/api'
 
 export interface AuthUser {
-  id: number; name: string; email: string; cpf?: string | null; profile_id?: number
+  id: number; name: string; email: string; cpf?: string; profile_id?: number
 }
 
 export const useAuthStore = defineStore('auth', {
